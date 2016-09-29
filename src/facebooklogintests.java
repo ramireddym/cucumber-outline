@@ -26,7 +26,7 @@ public class facebooklogintests {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
-
+//fefrrefr
 	@When("^Username as ramireddy(\\S) And Password as (\\S)$")
 	public void username_as_ramireddy_gmail_com_And_Password_as(String username, String password) throws Throwable {
 		String username = Integer.toString(user);
