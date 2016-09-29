@@ -23,7 +23,7 @@ public class facebooklogintests {
 			driver.get("http://www.facebook.com ");
 		}
 
-		driver.manage().window().maximize();
+	////////	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 	}
 
